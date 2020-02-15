@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="675px" height="778px" viewBox="0 0 675 778" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Aile-nesil-ve-toplum-logo-beyaz" transform="translate(-201.000000, -154.000000)" fill="#FFFFFE">
+            <g id="logo" transform="translate(201.000000, 154.000000)">
+                <text id="Aile" font-family="Nivea" font-size="76.1469" font-weight="normal">
+                    <tspan x="269" y="105">Aile</tspan>
+                </text>
+                <text id="Nesil" font-family="Nivea" font-size="114.2204" font-weight="normal">
+                    <tspan x="201" y="199">Nesil</tspan>
+                </text>
+                <text id="Toplum" font-family="Nivea" font-size="139.6026" font-weight="normal">
+                    <tspan x="71" y="316">Toplum</tspan>
+                </text>
+                <text id="İslâm" font-family="Nivea-Bold, Nivea" font-size="228.4407" font-weight="bold">
+                    <tspan x="11" y="546">İslâm</tspan>
+                </text>
+                <text id="İle-Korunur" font-family="Nivea" font-size="75.9455" font-weight="normal">
+                    <tspan x="127" y="637">İle Korunur</tspan>
+                </text>
+                <g id="Group-9">
+                    <path d="M667.2998,151.4775 C665.0268,155.2805 529.8128,22.4115 338.5548,22.0155 C146.2168,21.6185 9.7198,155.4275 7.3608,151.4775 C4.9448,147.4355 143.7198,0.1945 336.8508,0.0453873168 C530.4018,-0.1035 669.6418,147.5625 667.2998,151.4775" id="Fill-4"></path>
+                    <polygon id="Fill-7" points="0 777.0713 0 676.5763 75 676.5763 75 709.5743 150 709.5743 150 676.5763 225 676.5763 225 709.5743 300 709.5743 300 676.5763 375 676.5763 375 709.5743 450 709.5743 450 676.5763 525 676.5763 525 709.5743 600 709.5743 600 676.5763 675 676.5763 675 709.5743 675 777.0713"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
