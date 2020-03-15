@@ -1,0 +1,102 @@
+.navgition.navgition-transparent {
+  position: fixed;
+}
+.navgition.sticky {
+  background-color: #587291;
+}
+.navbar-brand {
+  position: relative;
+  width: 85px;
+  height: 95px;
+  transition: all 450ms ease-in-out;
+}
+.navgition.sticky .navbar-brand {
+  height: 55px;
+}
+.navbar-brand svg {
+  position: absolute;
+  top: 50%; left: auto;
+  width: auto;
+  height: 95px;
+  transform: translateY(-50%);
+}
+.navbar-brand svg g * {
+  transition: all 450ms ease-in-out;
+  transform-origin: 50% 50%;
+}
+.navgition.sticky .navbar-brand svg g *:not(.logo-top):not(.logo-bottom) {
+  opacity: 0;
+  transform: scale(0);
+}
+.navgition.sticky .navbar-brand svg .logo-top {
+  transform: translateY(28%);
+}
+.navgition.sticky .navbar-brand svg .logo-bottom {
+  transform: translateY(-28%);
+}
+.navgition .navbar .navbar-nav .nav-item a {
+  padding: 15px 0;
+}
+
+@media (max-width: 576) {
+  .navgition .navbar {
+    justify-content: center;
+  }
+  .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 50%; right: 0;
+  transform: translateY(-50%);
+}
+@media (max-width: 990px) {
+  .navgition .navbar .navbar-social {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .navgition .navbar .navbar-collapse {
+    background-color: #587291;
+  }
+}
+
+
+.header-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: calc(50vh);
+  background-color: rgba(88, 187, 179, .8);
+}
+.video-background {
+  background: #000;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.video-background iframe {
+  transform: scale(1.3);
+}
+.header-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.header-hero .header-content {
+  padding-top: 0;
+}
+.header-hero .header-content .header-btn li a.main-btn {
+  color: #58bbb3;
+}
