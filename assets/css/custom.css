@@ -38,6 +38,13 @@
   padding: 15px 0;
 }
 
+.navgition .navbar .navbar-social ul li a:hover {
+  color: #587291;
+}
+.navgition.sticky .navbar .navbar-social ul li a:hover {
+  color: #58bbb3;
+}
+
 @media (max-width: 576) {
   .navgition .navbar {
     justify-content: center;
@@ -99,4 +106,69 @@
 }
 .header-hero .header-content .header-btn li a.main-btn {
   color: #58bbb3;
+}
+
+.single-pricing .pricing-header .price {
+  font-size: 20px;
+  line-height: 1.3;
+}
+.single-pricing .d-block {
+  margin: -24px -20px;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  background-color: #587291;
+}
+.call-to-action a.main-btn {
+  color: #58bbb3;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: 0;
+  line-height: 50px;
+}
+.call-to-action a.main-btn:hover {
+  color: #587291;
+}
+.call-to-action a.main-btn i {
+  position: relative;
+  left: 0; top: 0;
+  margin-left: 15px;
+  color: inherit;
+  vertical-align: middle;
+}
+
+
+.services-area .section-title .text {
+  font-size: 20px;
+  color: #4c4a4a;
+}
+.services-area .section-content .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 15px;
+}
+.services-image .image svg {
+  width: 400px; height: auto;
+  max-width: 100vw;
+}
+
+.footer-link .footer-title {
+  margin-bottom: 5px;
+}
+.footer-link p.text {
+  font-size: 15px;
+  padding-top: 16px;
+  color: #fff;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.footer-link ul {
+  margin-top: 0;
+}
+.footer-link ul li a:hover {
+  color: #587291;
 }
